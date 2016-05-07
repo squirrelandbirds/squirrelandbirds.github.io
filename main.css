@@ -25,6 +25,11 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 10px;
   margin: 0;
+	padding-bottom: 20px;
+
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 a {
@@ -37,9 +42,6 @@ a:hover, a:focus {
 }
 
 #main {
-  height: 90%;
+  height: 100%;
   width:100%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
 }
